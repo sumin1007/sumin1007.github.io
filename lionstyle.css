@@ -1,0 +1,80 @@
+@font-face { 
+	font-family: 'MapoGoldenPier'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoGoldenPierA.woff') format('woff'); 
+	font-weight: normal; 
+	font-style: normal; 
+}
+
+body{
+	font-family: 'MapoGoldenPier';
+}
+
+nav{
+	width: 100%;
+	height: 70px;
+}
+
+h1{
+	text-align: left;
+	margin: auto;
+	display: inline;
+}
+
+header{
+	width: 100%;
+	height: 600px;
+	background-image: url(https://postfiles.pstatic.net/MjAyMDA0MTZfMTEz/MDAxNTg3MDMwOTcwMDgx.LwcCjbuMcoZT_LyCUVvUQdtD6XF4TtlfIkkqeEb7kDkg.6knVfphmTOTbBP4WNH3BLVfL_P5HNa_vez0i-uk78xwg.JPEG.sumin00j/1.jpg?type=w966);
+}
+
+section{
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 10px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer{
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.container1{
+	width: 960px;
+	margin: auto;
+}
+
+.info{
+	font-size: 15px;
+	text-align: right;
+	float: right;
+}
+
+h2{
+	font-size: 60px;
+	text-align: center;
+	color: white;
+	margin: 0px;
+	padding: 50px;
+}
+
+.about{
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	padding: 50px;
+}
+
+article{
+	width: 310px;
+	text-align: center;
+	font-size: 15px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.btn-group{
+	padding: 5px;
+}
